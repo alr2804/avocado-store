@@ -29,8 +29,9 @@ function fetchData() {
             container.append(name,img, price);
             allItems.push(container);
         });
-
-        document.body.append(...allItems);    
+        const mainContainer = document.querySelector(".main-container");
+        console.log(mainContainer)
+        mainContainer.append(...allItems); 
     })
 }
 
