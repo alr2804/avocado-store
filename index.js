@@ -19,7 +19,7 @@ function fetchData() {
             
             //price
             const price = document.createElement("h3");
-            price.textContent = element.price;
+            price.textContent = "$ " + element.price ;
             
             //image
             const img = document.createElement("img");
